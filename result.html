@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Round Results</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="frame">
+    <div class="topbar">
+      <div class="left">Results</div>
+      <div class="center">Round finished</div>
+      <div class="right"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-row">
+        <div class="panel-cell label">Thanks for playing</div>
+        <div class="panel-cell value" id="final-score">0</div>
+      </div>
+      <div style="margin-top:12px">
+        <p>Sliders exactly at 100: <strong id="count-100">0</strong></p>
+        <p>Sum of sliders at 100: <strong id="sum-100">0</strong></p>
+        <p>Total sum of all slider values: <strong id="total-sum">0</strong></p>
+      </div>
+    </div>
+
+    <div style="margin-top:14px;text-align:center">
+      <a href="index.html" class="start-btn">Back to task</a>
+    </div>
+  </div>
+
+  <script src="result.js"></script>
+</body>
+</html>

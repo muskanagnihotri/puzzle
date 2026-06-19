@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Slider Effort Task — Replica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="frame">
+    <div class="topbar">
+      <div class="left">Paying Round</div>
+      <div class="center">1 out of 10</div>
+      <div class="right">Remaining time [sec]: <span id="timer">60</span></div>
+    </div>
+
+    <div class="info">You are the First Mover</div>
+
+    <div class="panel">
+      <div class="panel-row">
+        <div class="panel-cell label">The prize in pounds for this round is:</div>
+        <div class="panel-cell value">1.20</div>
+        <div class="panel-cell" style="margin-left:12px">
+          <button id="start-btn" class="start-btn">Start round</button>
+        </div>
+        <div class="panel-cell label">Currently, your points score is:</div>
+        <div class="panel-cell value" id="score">0</div>
+      </div>
+    </div>
+
+    <div class="sliders-container" id="sliders-container" aria-live="polite">
+      <!-- sliders injected here -->
+    </div>
+    
+    <!-- results are shown on a separate results page (result.html) -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
